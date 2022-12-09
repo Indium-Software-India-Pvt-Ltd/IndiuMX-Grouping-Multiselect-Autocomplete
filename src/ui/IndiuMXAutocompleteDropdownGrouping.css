@@ -1,0 +1,35 @@
+.widget-indiumxautocompletedropdowngrouping-clickable {
+    cursor: pointer;
+}
+
+.widget-indiumxautocompletedropdowngrouping {
+    display: inline-block;
+}
+
+.widget-indiumxautocompletedropdowngrouping.badge:empty {
+    display: initial;
+    /* Fix padding to stay round */
+    padding: 3px 10px;
+}
+
+.widget-indiumxautocompletedropdowngrouping.label:empty {
+    display: initial;
+    /* Fix padding to stay square */
+    padding: .2em .8em .3em;
+}
+
+.widget-indiumxautocompletedropdowngrouping.badge {
+    min-width: 18px;
+    min-height: 18px;
+}
+.multiSelectContainer li {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.multiSelectContainer input {
+    margin-right: 10px !important;
+    min-height: 18px !important;
+}
